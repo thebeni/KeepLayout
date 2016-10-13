@@ -31,10 +31,10 @@
 
 /// Use custom names.
 typedef float KeepPriority;
-static const KeepPriority KeepPriorityRequired = UILayoutPriorityRequired;
-static const KeepPriority KeepPriorityHigh = UILayoutPriorityDefaultHigh;
-static const KeepPriority KeepPriorityLow = UILayoutPriorityDefaultLow;
-static const KeepPriority KeepPriorityFitting = UILayoutPriorityFittingSizeLevel;
+static const KeepPriority KeepPriorityRequired = 1000;
+static const KeepPriority KeepPriorityHigh = 750;
+static const KeepPriority KeepPriorityLow = 250;
+static const KeepPriority KeepPriorityFitting = 50;
 
 #else
 
